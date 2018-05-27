@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>modern</title>
+</head>
+<style>
+	html,body{
+		margin: 0;
+	  padding: 0;
+		height: 100vh;
+		font-family: sans-serif,微軟正黑體;
+    font-weight: 400;       
+	}
+	*{
+		box-sizing: border-box;
+	}
+  header{
+  margin-left:30px;
+  padding:20px;
+    font-size: 20px;
+    float: left;
+    color: #000;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+header:hover{
+  color: rgba(0, 0, 0,0.3);
+}
+  .topnav {
+  overflow: hidden;
+  background-color: #fff;
+  padding-left: 1000px;
+  text-transform: uppercase;
+}
+
+.topnav a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 18px 14px;
+  text-decoration: none;
+  font-size: 12px;
+  transition: all .2s;
+}
+.topnav a:hover{
+	color: rgba(0, 0, 0 ,0.3);
+}
+.container {
+  position: relative;
+  height: auto;
+  margin: 10px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+ }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  opacity: 0;
+  transition: all 1s ;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container:hover .overlay  {
+  opacity: 1;
+}
+.text:hover{
+    letter-spacing: 24px;
+}
+.text{
+position: absolute;
+top: 53%;
+left: 53%;
+transform: translate(-50%, -50%);
+color: white;
+font-size: 25px;
+transition: .5s;
+}
+p{
+	 color: #fff;
+  font-size: 15px;
+  position: absolute;
+  top: 80%;
+  left:50%;
+}
+.Freelane{
+     color: #fff;
+  font-size: 15px;
+  position: absolute;
+  top:80%;
+  left:50%;
+}
+span{
+position: absolute;
+top: 690%;
+left: 51.5%;
+width: 50px;
+height: 50px;
+border: 5px solid #fff;
+color: white;
+font-size: 20px;
+text-align: center;
+transition:0.45s ease;
+}
+span:hover{
+cursor: pointer;
+top: 688%;
+border: 5px solid #F8D23E;
+}
+@media only screen and (max-width: 1280px) {
+  .topnav {
+  overflow: hidden;
+  background-color: #fff;
+  padding-left: 750px;
+  text-transform: uppercase; 
+}
+span{
+position: absolute;
+top: 425%;
+left: 51.5%;
+width: 50px;
+height: 50px;
+border: 5px solid #fff;
+color: white;
+font-size: 20px;
+text-align: center;
+transition:0.45s ease;
+}
+span:hover{
+cursor: pointer;
+top: 423%;
+border: 5px solid #F8D23E;
+}
+@media only screen and (max-height: 1024px) {
+	.topnav {
+  overflow: hidden;
+  background-color: #fff;
+  padding-left: 750px;
+  text-transform: uppercase; 
+}
+</style>
+<body>
+	<a href="index.html"><header>motion</header></a>
+	<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="modern.html">modern</a>
+  <a href="application.html">application</a>
+</div>
+<div class="container">
+    <img src="motion06.jpg" style="width: 100%">
+    <div class="overlay">
+    <a href="https://vimeo.com/bitostudio"><div class="text">劉耕名</div></a>
+    <p>《動態導演》</p>
+  </div>
+</div>
+<div class="container">
+    <img src="motion.jpg" style="width: 100%">
+    <div class="overlay">
+    <a href="http://aexer.co/"><div class="text">林思翰</div></a>
+    <p>《Freelacne》</p>
+  </div>
+</div>
+<div class="container">
+    <img src="motion02.jpg" style="width: 100%">
+    <div class="overlay">
+    <a href="https://www.behance.net/sleepinghouse "><div class="text">徐光慧</div></a>
+    <p class="Freelane">《Freelance》</p>
+  </div>
+</div>
+<div class="container">
+    <img src="motion03.jpg" style="width: 100%">
+    <div class="overlay">
+    <a href="https://vimeo.com/somei"><div class="text">孫世晟</div></a>
+    <p>《Freelance》</p>
+  </div>
+</div>
+<div class="container">
+    <img src="motion04.jpg" style="width: 100%">
+    <div class="overlay">
+    <a href="https://www.yottau.com.tw/course/intro/535#intro"><div class="text">曾瑋翔</div></a>
+    <p>《Freelnce》</p>
+  </div>
+</div>
+<div class="container">
+    <img src="motion05.jpg" style="width: 100%">
+    <div class="overlay">
+    <a href="https://www.yottau.com.tw/course/intro/535#intro"><div class="text">張以得</div></a>
+    <p>《Freelance》</p>
+  </div>
+</div>
+  <a href="application.html"><span></span></a>
+</body>
+</html>
